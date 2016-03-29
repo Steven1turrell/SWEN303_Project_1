@@ -3,12 +3,12 @@ body {
 }
 
 .color-body {
-    /*width: 100%;*/
     background-color: #423f3f;
+    align-items: center;
 }
 
 #body {
-    background-color: #dfd6d6;
+    background-color:  #423f3f;
 }
 
 header {
@@ -30,6 +30,13 @@ header p {
     margin: 0;
 }
 
+.jumbotron {
+    background-color: #dfd6d6;
+    align-items: center;
+    height: 790px;
+    padding-bottom: 30px;
+}
+
 #xmlContent {
     color: #fafafa;
 }
@@ -38,5 +45,21 @@ header p {
     margin-top: 30px;
     margin-bottom: 20px;
     padding: 0;
+}
+
+.image {
+    padding-left: 700px;
+    padding-top: 20px;
+}
+
+.william {
+    position: absolute;
+    padding-left: 840px;
+    padding-bottom: 20px;
+}
+
+.name-text {
+    /*color: #dfd6d6;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 

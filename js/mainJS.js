@@ -3,12 +3,9 @@
  */
 
 var main = function() {
-    console.log("Hi");
     $('#search-button').click(function() {
-        console.log("fuck");
-        $('.color-body').fadeOut(1000);
+        $('.jumbotron').fadeOut(300);
     });
-    console.log("test");
 };
 
 $(document).ready(main());
