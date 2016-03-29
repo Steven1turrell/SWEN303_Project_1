@@ -8,6 +8,7 @@ var main = function() {
         console.log("fuck");
         $('.color-body').fadeOut(1000);
     });
+    console.log("test");
 };
 
 $(document).ready(main());
