@@ -1,0 +1,42 @@
+body {
+
+}
+
+.color-body {
+    /*width: 100%;*/
+    background-color: #423f3f;
+}
+
+#body {
+    background-color: #dfd6d6;
+}
+
+header {
+    padding: 20px;
+}
+
+header h1 {
+    font-weight: 700;
+    margin: 0;
+    color: #fafafa;
+}
+
+header nav {
+    display: flex;
+}
+
+header p {
+    padding: 0 20px;
+    margin: 0;
+}
+
+#xmlContent {
+    color: #fafafa;
+}
+
+#custom-search-input {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
