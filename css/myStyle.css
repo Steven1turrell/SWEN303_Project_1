@@ -3,10 +3,9 @@ body {
 }
 
 #xml-content {
-    font-size: 7pt;
-    margin-top: 43px;
+    font-size: 10pt;
+    margin-top: 35px;
 }
-
 
 
 .web-name:hover {
@@ -97,3 +96,10 @@ header p {
     float: left;
 }
 
+.will-name {
+    font-family: "Helvetica Neue";
+}
+
+.data-text {
+    font-family: "Helvetica Neue";
+}
