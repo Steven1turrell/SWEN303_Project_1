@@ -2,6 +2,17 @@ body {
 
 }
 
+#xml-content {
+    font-size: 7pt;
+    margin-top: 43px;
+}
+
+
+
+.web-name:hover {
+    cursor: pointer;
+}
+
 .color-body {
     background-color: #423f3f;
     align-items: center;
@@ -31,9 +42,10 @@ header p {
 }
 
 .jumbotron {
-    background-color: #dfd6d6;
+    /*background-color: #dfd6d6;*/
+    background-color: green;
     align-items: center;
-    height: 790px;
+    overflow: hidden;
     padding-bottom: 30px;
 }
 
@@ -45,6 +57,8 @@ header p {
     margin-top: 30px;
     margin-bottom: 20px;
     padding: 0;
+    width: 80%;
+    float: left;
 }
 
 .image {
@@ -61,5 +75,25 @@ header p {
 .name-text {
     /*color: #dfd6d6;*/
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.data-text {
+    padding-bottom: 15px;
+}
+
+.row {
+    padding-bottom: 20px;
+}
+
+.btn.btn-primary {
+    border-radius: 2px;
+    border: 0px;
+    color: #2a2a2a;
+    text-shadow: none;
+    background-color: #fafafa;
+    width: calc(20% - 15px);
+    margin-left: 15px;
+    margin-top: 30px;
+    float: left;
 }
 
